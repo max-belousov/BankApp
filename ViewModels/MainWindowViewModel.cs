@@ -9,5 +9,12 @@ namespace BankWPFApp.ViewModels
 {
     internal class MainWindowViewModel : ViewModel
     {
+        private string _Title = "A Consultant(alpha 0.1.001)";
+
+        public string Title
+        {
+            get => _Title;
+            set => Set(ref _Title, value);
+        }
     }
 }
