@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel;
 using System.Runtime.CompilerServices;
 
-namespace BankWPFApp.ViewModel.Base
+namespace BankWPFApp.ViewModels.Base
 {
     internal abstract class ViewModel : INotifyPropertyChanged
     {
