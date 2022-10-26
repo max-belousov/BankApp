@@ -16,5 +16,13 @@ namespace BankWPFApp.ViewModels
             get => _Title;
             set => Set(ref _Title, value);
         }
+
+        private string _Status = "Ready!";
+
+        public string Status
+        {
+            get => _Status;
+            set => Set(ref _Status, value);
+        }
     }
 }
